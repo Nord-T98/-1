@@ -4,12 +4,12 @@ int main()
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	int num;
+	int num{};
 
-	std::cout << "Ââåäèòå ÷èñëî:";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾:";
 	std::cin >> num;
-	std::cout << "Âû ââåëè:" << num << std::endl;
-	
+	std::cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸:" << num << std::endl;
+
 	std::cin.clear();
 	std::cin.ignore(32767, '\n');
 	std::cin.get();
